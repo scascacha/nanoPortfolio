@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Toast toastToShow;
     private Button spotifyButton;
     private Button scoresButton;
     private Button libraryButton;
@@ -74,9 +75,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showMessage(String message) {
+        if (toastToShow != null) {
+            toastToShow.cancel();
+        }
 
         String finalMessage = String.format(getString(R.string.message), message);
-        Toast.makeText(this,finalMessage,Toast.LENGTH_SHORT).show();
+        toastToShow = Toast.makeText(this,finalMessage,Toast.LENGTH_SHORT);
+        toastToShow.show();
     }
 
 

@@ -16,11 +16,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/top_bottom_space"
+                android:layout_marginRight="@dimen/margin_space"
+                android:layout_marginLeft="@dimen/margin_space"
                 android:textAlignment="center"
-                android:textSize="20dp"
+                android:textSize="@dimen/title_font_size"
                 android:text="@string/main_title"
                 />
 
@@ -28,9 +28,9 @@
                 android:id="@+id/spotify"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/top_bottom_space"
+                android:layout_marginRight="@dimen/margin_space"
+                android:layout_marginLeft="@dimen/margin_space"
                 android:text="@string/spotify"
                 android:background="@color/orange"/>
 
@@ -38,9 +38,9 @@
                 android:id="@+id/scores"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/top_bottom_space"
+                android:layout_marginRight="@dimen/margin_space"
+                android:layout_marginLeft="@dimen/margin_space"
                 android:text="@string/scores"
                 android:background="@color/orange"/>
 
@@ -48,9 +48,9 @@
                 android:id="@+id/library"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/top_bottom_space"
+                android:layout_marginRight="@dimen/margin_space"
+                android:layout_marginLeft="@dimen/margin_space"
                 android:text="@string/library"
                 android:background="@color/orange"/>
 
@@ -58,9 +58,9 @@
                 android:id="@+id/build_bigger"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/top_bottom_space"
+                android:layout_marginRight="@dimen/margin_space"
+                android:layout_marginLeft="@dimen/margin_space"
                 android:text="@string/build_bigger"
                 android:background="@color/orange"/>
 
@@ -68,9 +68,9 @@
                 android:id="@+id/xyz"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/top_bottom_space"
+                android:layout_marginRight="@dimen/margin_space"
+                android:layout_marginLeft="@dimen/margin_space"
                 android:text="@string/xyz_reader"
                 android:background="@color/orange"/>
 
@@ -78,9 +78,9 @@
                 android:id="@+id/capstone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/top_bottom_space"
+                android:layout_marginRight="@dimen/margin_space"
+                android:layout_marginLeft="@dimen/margin_space"
                 android:text="@string/capstone"
                 android:textColor="@color/white"
                 android:background="@color/red"/>

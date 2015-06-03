@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_space">10dp</dimen>
+    <dimen name="top_bottom_space">20dp</dimen>
+
+    <dimen name="title_font_size">20dp</dimen>
+
+</resources>
